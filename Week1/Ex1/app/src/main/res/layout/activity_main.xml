@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:text="New Game"
+            android:lines="1"
+            android:padding="10px"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:text="Continue Game"
+            android:lines="1"
+            android:padding="10px"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:text="Help Game"
+            android:lines="1"
+            android:padding="10px"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="500px"
+            android:layout_height="150px"
+            android:text="Quick Game"
+            android:lines="1"
+            android:padding="10px"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>
